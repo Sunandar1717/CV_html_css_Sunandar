@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto',
+        sans-serif;
+    overflow-x: hidden;
+
+}
+
+header {
+    background: url('../gambar/background_header.jpg')no-repeat;
+    background-color: rgb(125, 226, 105);
+    background-blend-mode: multiply;
+    opacity: .8;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    text-align: center;
+}
+
+header .wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+header .wrapper h1 {
+    color: rgb(224, 215, 211);
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    text-shadow: 0 4px 0px black;
+    margin-bottom: 30px;
+}
+
+header .wrapper img {
+    height: 50%;
+    width: 50%;
+    border-radius: 50%;
+    border: 7px solid rgb(125, 226, 105);
+    box-shadow: 0 7px 0px rgba(0, 0, 0, .7);
+    transition: trasfrom .5s ease-out;
+    cursor: pointer;
+}
+
+header .wrapper img:hover {
+    transform: scale(1.1);
+}
+
+/* header .wrapper ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+
+}
+
+header .wrapper ul li a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: rgb(224, 215, 211);
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    text-shadow: 0 4px 0px black;
+    margin-bottom: 30px;
+    padding-bottom: 10x;
+}
+
+header .wrapper ul li a:hover {
+    border-bottom: 5px solid yellowgreen;
+} */
+header .wrapper h2 {
+    color: rgb(224, 215, 211);
+    text-transform: uppercase;
+    font-size: 1rem;
+    text-shadow: 0 4px 0px black;
+    margin-top: 20px;
+}
+
+.tentang-saya {
+    background: rgb(204, 230, 153);
+    color: white;
+    text-align: center;
+    padding: 15px 10px;
+    height: 55vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+}
+
+.tentang-saya h2 {
+    text-shadow: 0 4px 0px black;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    border-bottom: 7px solid white;
+    display: inline-block;
+    padding-bottom: 7px;
+    margin-bottom: 40px;
+}
+
+.tentang-saya .wrapper p {
+
+    font-size: 18px;
+    line: 25px;
+    padding: 0 35px;
+    color: black;
+    margin-bottom: 50px;
+}
+
+.tentang-saya .wrapper a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 15px;
+    padding: 10px 30px;
+    border: 3px solid black;
+    border-top: none;
+
+}
